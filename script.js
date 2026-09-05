@@ -5,6 +5,7 @@ class Person {
 		this._age = age;
 	}
 	set _age(val){
+		if(val < 0) return;
 		this._age = val
 	}
 
