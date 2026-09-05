@@ -8,7 +8,10 @@ class Person {
 		if(val < 0) return;
 		this._age = val
 	}
-
+	set name(value) {
+		this._name = value;
+	}
+	
 	get name(){
 		return this._name;
 	}
